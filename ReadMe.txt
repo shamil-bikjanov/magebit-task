@@ -29,8 +29,8 @@ Success page after full validation is passed is accessible in two different ways
 
 Hidden by default <div id="pretend-button"> is used only within JS code user input validation logic.
 
-<div> elements labeled error1, error2, error3, error4 exist from locading and are used with JS code.
-Form validation with PHP is done in a conseptually different way when similar <div> elements are only generated when needed.
+<div> elements labelled error1, error2, error3, error4 exist from the first time loading of the page and are used with JS code.
+Form validation with PHP is done in a conceptually different way when similar <div> elements are only generated when they are required.
 
 2. Success page ("success-page.php").
 
@@ -38,7 +38,7 @@ Simple as a carrot. It is only used to display 'congrats' message after PHP vali
 
 3. Admin page ("admin-page.php").
 
-In order to manage a) search, b) sorting options, c) filter-buttons and d) sorting order (extra step) - relevant varibles are introduced.
+In order to manage a) search, b) sorting options, c) filter-buttons and d) sorting order (extra step) - relevant variables are introduced.
 
 Comments are used within code for easy understanding and navigation.
 
@@ -58,7 +58,7 @@ Simple algorithm of deleting a single entry from database based on the obtained 
 
 6. DBconnect.php.
 
-Four key attributes: 'port' , 'DBname', 'username' and 'password' are to be updated in order to extablish connection to a database as required.
+Four key attributes: 'port' , 'DBname', 'username' and 'password' are to be updated in order to establish connection to a database as required.
 
 7. myscripts.js.
 
